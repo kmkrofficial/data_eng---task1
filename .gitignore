@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,pythonvanilla,images
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pythonvanilla,images
 
+.rar
+
 ### Images ###
 # JPEG
 *.jpg
