@@ -1,0 +1,157 @@
+PDS_VERSION_ID                    = PDS3
+
+/* FILE DATA ELEMENTS */
+
+RECORD_TYPE                       = FIXED_LENGTH
+RECORD_BYTES                      = 2014
+FILE_RECORDS                      = 1026
+LABEL_RECORDS                     = 5
+
+/* POINTERS TO DATA OBJECTS */
+
+^IMAGE_HEADER                     = 6
+^IMAGE                            = 9
+
+/* IDENTIFICATION DATA ELEMENTS */
+
+FILE_NAME                         = "HQ000_0002_SR3.IMG"
+DATA_SET_ID                       = "MEX-M-HRSC-3-RDR-EXT9-V4.0"
+DATA_SET_NAME                     = "MARS EXPRESS HRSC RADIOMETRIC RDR 
+                                     EXTENSION9 V4.0"
+DETECTOR_ID                       = MEX_HRSC_SRC
+EVENT_TYPE                        = "MARS-TERMINATOR-CALIBRATION-Tc"
+INSTRUMENT_HOST_ID                = MEX
+INSTRUMENT_HOST_NAME              = "MARS EXPRESS"
+INSTRUMENT_ID                     = HRSC
+INSTRUMENT_NAME                   = "HIGH RESOLUTION STEREO CAMERA"
+MISSION_NAME                      = "MARS EXPRESS"
+MISSION_PHASE_NAME                = ME_Phase_50
+PROCESSING_LEVEL_ID               = 3
+PRODUCT_CREATION_TIME             = 2024-08-18T06:55:24.000Z
+PRODUCT_ID                        = "HQ000_0002_SR3.IMG"
+RELEASE_ID                        = 0004
+REVISION_ID                       = 0000
+
+/* TIME DATA ELEMENTS */
+
+SPACECRAFT_CLOCK_START_COUNT      = "1/0670989773.00372"
+SPACECRAFT_CLOCK_STOP_COUNT       = "1/0670990117.53263"
+IMAGE_TIME                        = 2024-08-06T02:06:33.974Z
+START_TIME                        = 2024-08-06T02:06:33.949Z
+STOP_TIME                         = 2024-08-06T02:06:33.999Z
+
+/* ORBITAL DATA ELEMENTS */
+
+ASCENDING_NODE_LONGITUDE          = 92.55
+MAXIMUM_RESOLUTION                = 102.376 <m/pixel>
+FOOTPRINT_POINT_LATITUDE          = (39.3675,39.2781,39.1955,39.1336,
+                                     39.0516,38.9717,38.8813,38.8002,38.7195
+                                     ,38.657,38.5589,38.479,38.3995,38.2989,
+                                     38.2199,38.1413,38.0782,38.0769,38.0739
+                                     ,38.0105,37.9494,37.8887,37.8281,
+                                     37.7677,37.7074,37.5824,37.4936,37.3747
+                                     ,37.2807,37.1628,37.0459,36.9348,
+                                     36.8186,36.7068,36.5905,36.476,36.3621,
+                                     36.2461,36.1332,36.0209,35.908,35.7942,
+                                     35.6834,35.5704,35.4605,35.3994,35.2897
+                                     ,35.1811,35.154,35.1377,35.2168,35.2902
+                                     ,35.3508,35.4704,35.5446,35.6191,
+                                     35.6742,35.7457,35.8208,35.8961,35.947,
+                                     36.018,36.094,36.1953,36.2719,36.3307,
+                                     36.3319,36.3347,36.4207,36.5326,36.704,
+                                     36.8173,36.931,37.0477,37.1625,37.2779,
+                                     37.3674,37.4546,37.5713,37.7207,37.8388
+                                     ,37.9575,38.0497,38.1694,38.2898,
+                                     38.3832,38.5047,38.6269,38.7218,38.7834
+                                     ,38.8451,38.907,38.9691,39.0648,39.1274
+                                     ,39.19,39.2539,39.317,39.3486,39.3675)
+FOOTPRINT_POINT_LONGITUDE         = (187.052,187.167,187.273,187.353,187.46
+                                     ,187.558,187.674,187.78,187.887,187.948
+                                     ,188.072,188.179,188.286,188.41,188.517
+                                     ,188.623,188.71,188.712,188.71,188.657,
+                                     188.606,188.556,188.506,188.456,188.406
+                                     ,188.304,188.231,188.133,188.057,
+                                     187.961,187.867,187.776,187.683,187.592
+                                     ,187.499,187.408,187.317,187.226,
+                                     187.136,187.048,186.959,186.87,186.784,
+                                     186.696,186.61,186.564,186.479,186.395,
+                                     186.374,186.362,186.261,186.156,186.062
+                                     ,185.911,185.806,185.701,185.622,
+                                     185.529,185.424,185.32,185.249,185.156,
+                                     185.051,184.911,184.806,184.726,184.724
+                                     ,184.726,184.79,184.873,185.0,185.084,
+                                     185.169,185.257,185.343,185.43,185.497,
+                                     185.564,185.652,185.766,185.856,185.948
+                                     ,186.018,186.111,186.204,186.276,
+                                     186.371,186.466,186.541,186.589,186.638
+                                     ,186.686,186.735,186.811,186.86,186.91,
+                                     186.961,187.011,187.037,187.052)
+ORBIT_NUMBER                      = 26000
+ORBITAL_ECCENTRICITY              = 0.574
+ORBITAL_INCLINATION               = 87.07
+ORBITAL_SEMIMAJOR_AXIS            = 8850.95
+PERIAPSIS_ALTITUDE                = 373.82
+PERIAPSIS_ARGUMENT_ANGLE          = 188.47
+PERIAPSIS_TIME                    = 2024-08-05T23:25:18.000Z
+SPACECRAFT_ORIENTATION            = (0.0,-1.0,0.0)
+^MEX_ORIENTATION_DESC             = "MEX_ORIENTATION_DESC.TXT"
+SPACECRAFT_POINTING_MODE          = FIXED
+^MEX_POINTING_DESC                = "MEX_POINTING_DESC.TXT"
+RIGHT_ASCENSION                   = -1e+32
+DECLINATION                       = -1e+32
+OFFSET_ANGLE                      = -1e+32
+SPACECRAFT_SOLAR_DISTANCE         = 2.14573e+08
+TARGET_NAME                       = MARS
+
+/* CAMERA DATA ELEMENTS */
+
+BUFFER_MODE_ID                    = BUFFER_8
+EXPOSURE_DURATION                 = 49.896 <ms>
+INST_CMPRS_NAME                   = NONE
+INST_CMPRS_RATIO                  = 1.0
+INST_CMPRS_QUALITY                = -2147483648
+INST_CMPRS_QUANTZ_TBL_ID          = -2147483648
+INSTRUMENT_TEMPERATURE            = 10.8996 <degC>
+LINE_FIRST_PIXEL                  = 3
+SAMPLE_FIRST_PIXEL                = 13
+START_BIT                         = 0
+
+/* RADIOMETRIC DATA ELEMENTS */
+
+BANDWIDTH                         = 250.0 <nm>
+CENTER_FILTER_WAVELENGTH          = 600.0 <nm>
+RADIANCE_OFFSET                   = -9.99e+31 <W*m**-2*sr**-1>
+RADIANCE_SCALING_FACTOR           = -9.99e+31 <W*m**-2*sr**-1>
+REFLECTANCE_SCALING_FACTOR        = -9.99e+31
+
+/* DATA OBJECT DEFINITIONS */
+
+OBJECT                            = IMAGE
+  INTERCHANGE_FORMAT              = BINARY
+  LINES                           = 1018
+  LINE_SAMPLES                    = 1007
+  SAMPLE_TYPE                     = MSB_INTEGER
+  SAMPLE_BITS                     = 16
+  BANDS                           = 1
+  BAND_STORAGE_TYPE               = BAND_SEQUENTIAL
+  MAXIMUM                         = 14013
+  MEAN                            = 7633.64
+  MINIMUM                         = 13
+  STANDARD_DEVIATION              = 6579.82
+END_OBJECT                        = IMAGE
+
+/* IMAGE HEADER DATA ELEMENTS */
+
+OBJECT                         = IMAGE_HEADER
+ HEADER_TYPE                   = VICAR2
+ INTERCHANGE_FORMAT            = ASCII
+ BYTES                         = 6042
+ ^DESCRIPTION                  = "VICAR2.TXT"
+END_OBJECT                     = IMAGE_HEADER
+END
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          LBLSIZE=6042            FORMAT='HALF'  TYPE='IMAGE'  BUFSIZ=2014  DIM=3  EOL=0  RECSIZE=2014  ORG='BSQ'  NL=1018  NS=1007  NB=1  N1=1007  N2=1018  N3=1  N4=0  NBB=0  NLB=0  HOST='JAVA'  INTFMT='HIGH'  REALFMT='RIEEE'  BHOST='VAX-VMS'  BINTFMT='LOW'  BREALFMT='VAX'  BLTYPE=''  COMPRESS='NONE'  EOCI1=0  EOCI2=0  PROPERTY='M94_ORBIT'  ORBIT_NUMBER=26000  ASCENDING_NODE_LONGITUDE=92.55  ORBITAL_ECCENTRICITY=0.574  ORBITAL_INCLINATION=87.07  PERIAPSIS_ARGUMENT_ANGLE=188.47  PERIAPSIS_TIME='2024-08-05T23:25:18.000Z'  PERIAPSIS_ALTITUDE=373.82  ORBITAL_SEMIMAJOR_AXIS=8850.95  SPACECRAFT_SOLAR_DISTANCE=2.14573e+08  SPACECRAFT_CLOCK_START_COUNT='1/0670989773.00372'  SPACECRAFT_CLOCK_STOP_COUNT='1/0670990117.53263'  IMAGE_TIME='2024-08-06T02:06:33.974Z'  START_TIME='2024-08-06T02:06:33.949Z'  STOP_TIME='2024-08-06T02:06:33.999Z'  SPACECRAFT_POINTING_MODE='FIXED'  RIGHT_ASCENSION=-1e+32  DECLINATION=-1e+32  OFFSET_ANGLE=-1e+32  SPACECRAFT_ORIENTATION=(0.0,-1.0,0.0)  PRODUCT_CREATION_TIME='2024-08-18T06:55:24.000Z'  MEX_ORIENTATION_DESC='MEX_ORIENTATION_DESC.TXT'  MEX_POINTING_DESC='MEX_POINTING_DESC.TXT'  PROPERTY='FILE'  EVENT_TYPE='MARS-TERMINATOR-CALIBRATION-Tc'  MINIMUM=13  MAXIMUM=14013  MEAN=7633.64  STANDARD_DEVIATION=6579.82  RELEASE_ID='0004'  REVISION_ID='0000'  PROCESSING_LEVEL_ID=3  FILE_NAME='HQ000_0002_SR3'  PRODUCT_ID='HQ000_0002_SR3'  DATA_SET_ID='MEX-M-HRSC-3-RDR-EXT9-V4.0'  DATA_SET_NAME='MARS EXPRESS HRSC RADIOMETRIC RDR EXTENSION9 V4.0'  PROPERTY='M94_INSTRUMENT'  MISSION_NAME='MARS EXPRESS'  INSTRUMENT_HOST_NAME='MARS EXPRESS'  INSTRUMENT_HOST_ID='MEX'  INSTRUMENT_NAME='HIGH RESOLUTION STEREO CAMERA'  INSTRUMENT_ID='HRSC'  DETECTOR_ID='MEX_HRSC_SRC'  MISSION_PHASE_NAME='ME_Phase_50'  PROPERTY='M94_CAMERAS'  PMEM_FILE_NAME='scivis3.prm'  INST_CMPRS_RATIO=1.0  INST_CMPRS_QUANTZ_TBL_ID=-2147483648  INST_CMPRS_QUALITY=-2147483648  INST_CMPRS_NAME='NONE'  EXPOSURE_DURATION=49.896  EXPOSURE_DURATION__UNIT='ms'  BUFFER_MODE_ID='BUFFER_8'  START_BIT=0  SAMPLE_FIRST_PIXEL=13  LINE_FIRST_PIXEL=3  PROPERTY='MAP'  TARGET_NAME='MARS'  PROPERTY='FOOTPRINT'  FOOTPRINT_POINT_LATITUDE=(39.3675,39.2781,39.1955,39.1336,39.0516,38.9717,38.8813,38.8002,38.7195,38.657,38.5589,38.479,38.3995,38.2989,38.2199,38.1413,38.0782,38.0769,38.0739,38.0105,37.9494,37.8887,37.8281,37.7677,37.7074,37.5824,37.4936,37.3747,37.2807,37.1628,37.0459,36.9348,36.8186,36.7068,36.5905,36.476,36.3621,36.2461,36.1332,36.0209,35.908,35.7942,35.6834,35.5704,35.4605,35.3994,35.2897,35.1811,35.154,35.1377,35.2168,35.2902,35.3508,35.4704,35.5446,35.6191,35.6742,35.7457,35.8208,35.8961,35.947,36.018,36.094,36.1953,36.2719,36.3307,36.3319,36.3347,36.4207,36.5326,36.704,36.8173,36.931,37.0477,37.1625,37.2779,37.3674,37.4546,37.5713,37.7207,37.8388,37.9575,38.0497,38.1694,38.2898,38.3832,38.5047,38.6269,38.7218,38.7834,38.8451,38.907,38.9691,39.0648,39.1274,39.19,39.2539,39.317,39.3486,39.3675)  FOOTPRINT_POINT_LONGITUDE=(187.052,187.167,187.273,187.353,187.46,187.558,187.674,187.78,187.887,187.948,188.072,188.179,188.286,188.41,188.517,188.623,188.71,188.712,188.71,188.657,188.606,188.556,188.506,188.456,188.406,188.304,188.231,188.133,188.057,187.961,187.867,187.776,187.683,187.592,187.499,187.408,187.317,187.226,187.136,187.048,186.959,186.87,186.784,186.696,186.61,186.564,186.479,186.395,186.374,186.362,186.261,186.156,186.062,185.911,185.806,185.701,185.622,185.529,185.424,185.32,185.249,185.156,185.051,184.911,184.806,184.726,184.724,184.726,184.79,184.873,185.0,185.084,185.169,185.257,185.343,185.43,185.497,185.564,185.652,185.766,185.856,185.948,186.018,186.111,186.204,186.276,186.371,186.466,186.541,186.589,186.638,186.686,186.735,186.811,186.86,186.91,186.961,187.011,187.037,187.052)  TASK='HRCONVER'  USER='mexsyst'  DAT_TIM='Fri Aug 16 14:59:38 2024'  SPICE_FILE_NAME=('naif0012.tls','MEX_STEP.TSC','MEX_ORMM.ORB')  SPICE_FILE_ID='(LSK,SCLK,ON)'  SOURCE_FILE_NAME='oq000_img_hrsc_01'  OVERFLOW_FRAMES=0  ERROR_FRAMES=0  INSTRUMENT_TEMPERATURE=10.8996  INSTRUMENT_TEMPERATURE__UNIT='degC'  TASK='HRCATLAB'  USER='mexsyst'  DAT_TIM='Fri Aug 16 14:59:44 2024'  OBJ_ID=14725  TASK='SRCAL'  USER='mexsyst'  DAT_TIM='Fri Aug 16 15:00:17 2024'  PROCESSING_HISTORY_TEXT='srcal v8.5   09.10.2013'  BLEMISH_FILE_NAME='h2esr_05.cal'  DARK_CURRENT_FILE_NAME='h2dsr_05.cal'  RESPONSE_FILE_NAME='h2psr_05.cal'  SRC_LINESHIFT=0  RADIANCE_SCALING_FACTOR=-9.99e+31  RADIANCE_SCALING_FACTOR__UNIT='W*m**-2*sr**-1'  RADIANCE_OFFSET=-9.99e+31  RADIANCE_OFFSET__UNIT='W*m**-2*sr**-1'  REFLECTANCE_SCALING_FACTOR=-9.99e+31  CENTER_FILTER_WAVELENGTH=600.0  CENTER_FILTER_WAVELENGTH__UNIT='nm'  BANDWIDTH=250.0  BANDWIDTH__UNIT='nm'  ABSOLUTE_FLUX_CALIB_FLAG='N'  DARK_CURRENT_CORRECTION_FLAG='Y'  FLAT_FIELD_CORRECTION_FLAG='Y'  OVERFLOW_VALUE=-8  TASK='FRAMEFOO'  USER='mexsyst'  DAT_TIM='Fri Aug 16 15:00:33 2024'  GCALMODE='IKERNEL'  META_KERNEL='/vicsys/mars94/spkmerge/MEX.TM'  HEIGHT_OF_TOPOGRAPHY=-10295.0  BEST_GROUND_SAMPLING_DISTANCE=0.102376  CENTRIC_LATITUDE_AT_CENTER=37.1724  EASTERN_LONGITUDE_AT_CENTER=186.653  PHASE_AT_CENTER=79.8787  INCIDENCE_AT_CENTER=80.5626  EMISSION_AT_CENTER=59.84  SOLAR_LONGITUDE=306.593  LOCAL_HOUR_ANGLE=99.6667  LOCAL_TIME='06:38:40'  SPACECRAFT_ALTITUDE=9939.46  SPACECRAFT_CENTRIC_LATITUDE=-5.75766  SPACECRAFT_EASTERN_LONGITUDE=166.387  FOOTPRINT_POSITIVE_LONGITUDE='EAST'  TASK='LABEL'  USER='mexsyst'  DAT_TIM='Sun Aug 18 21:45:39 2024'  MAXIMUM_RESOLUTION=102.376  MAXIMUM_RESOLUTION__UNIT='m/pixel'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   B I U  ^ S \ a k f Y h ^   ) h ( l  2 e ` £ c f b r ^ , & n j “ g h ( f ] h b g  * j ) £ ³ 0 d / ¡ ' ”  d  l ' o j ¨ h N 2 h o b i h §  ^ l l g ` \ o ]  g g ) e ( ™ c ] l ¡ e h \ u _ g  f n g _ \ ` ` ¥ . ` ( › ˜ [ _ _ # % c c ¤ f \ ³ + ] L \ © ¡ q ` b ^ m _  b # f  a b e & c h ( ž n  i š i ` g ) L , b % S N a ^ a d c g ` h ª c  c  ] ` c c U n Y e  œ b Z ± – ¡ T X _ Y g ` › Y d f ^ b ^ ` c ¨ ^ Y š ^ ¤ ] « , ™ _  ] _ X ` d c V ä  c [ š ˜ ˜ g Ÿ ¥ X  `  d b ë Z Z \   [ ” g R    ! m \ [ š f Ÿ Ÿ ¡ ; ß ^ T W § _ V ¡  b  ¡ S  – W k   ¡ \ \ « Š S S e V \ ¥ ‘ _  f   Ÿ   W ß Y e Y  Ù • ^  j ¢ a ^  ¡  • Y – V ¢ f › ‘ H  ¡ [   ¦ U _ Ÿ ] Ú Z – R £ ™ U š  ¨ \   c V b ¥ ~ \ ¡ b Z _ › X ˜  Ÿ ` [ d  ¥ š _ \ Y b › œ š ¢ œ ˜ œ \ — ¡  ] ’ ¤ š ¦ œ ` [ V š R ‰ “ › • c  ^ ™ ^ c – a š P  ™ œ  d W ] ž œ b Œ ž — _ › P e ¡ \ ”  — ™ š U S â ‚ › — S — “ ˜ \ › œ f \ Y Ì ¤  ¡ T Š a _ R £ Z ¢ T ^ a Ö œ ™ ¡ ¤ T Ÿ ] Ø ˜ â f — Ž  “ V § › ` d [ € Ÿ e ’ X   V Ÿ \ — ` U ^ ™ œ ‘ ¢ _ ¢ ž “ ¡ Ÿ   X i U – ¡ _ – Œ ž d Z  W Ì „ Q Y ^ ˜ X Þ  Ÿ V b ` ™ ˜ ˜ ‹ • _ ™ ` ’ W – c Z ] W b W Ÿ Ž –  ™ ˜  Ì š _ b ™  š ¢ \ § Y d › š ‚ e Ÿ g V œ ] ” e Ž ž a \ " Ž ] — ¨ Z ˜  › š T Ž à P V Ÿ  ˜ g \  \  [ K ` h ¢  Ž › › _ Œ ž œ i ^ — b ™ ¢ ] • Ÿ ¢ ž „ Ÿ ” • š [ [ ™ ‰ ™ … _ ^ a U \ `   a Û [ Y ” O • _ Ö P S ¤ a ` ` æ \ [ h ^ Ü ^  £ • £ Y † [ ` ¢ ¡ ]  ™ › ¡ X • « Z ” [ ` ž R c [ ß \ — ] – [  • V Õ “ Õ š ‘ à e Ÿ  T • P ™ “ Ÿ V ˜ a œ  ¢ Ú ¬ ^   › × ] ž £ ] £ ^ X e  • _ Œ ˜ Y Z ™ [ œ f g ¦ Ñ g Y • X U  _ W ¤ Z £ ™ • _ â ! ¡ ¡ V ` ‰ ¦ ¢ £  – _ ^ Y X ­ ˆ f B • Ý  › \ ` › — X f   › ž \ £   V p e Ò e Ÿ Œ Z [ V Y ª f “ ‹ ¢ [ Ü e b   R § V ¤ f š ” ^ f ` ¤ – ^ ¡ _ ª a ¦ • R ` – œ £   A Y ª ^ _ h ¤  c ¢ › ›  ¨ ¬ ª c ¡ Ò n ¨ : ­ ¤ £ j V e [ b ` ¡ š ] š Z ­ ] ¥  £ ¦ $ e  ^ – › W ^ b š [ f ] £ [ ¦ ž i ™ d ¤ j a ¤ « c  £ c _ m c ^ g š f  d k  › R Y W c ^ ” h ­ d   i ­ › f f ˜ – ¦ e ¦ d ¡ ¤ œ – Y j d § $ ª _ ì [ ¢ _ % ¢ d – œ ¦ ` a   f h d n ¦ S Ÿ ¥ › g [ e $ ] Y a D ¥ j ¤ V £ ” œ ¤ › Z [ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø30ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3÷ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3óÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3‚ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ëÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4,ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4³ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¶ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø69ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4—ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø53ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4@ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4…ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6"ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4·ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø57ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4°ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4§ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¶ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4"ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4`ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5\ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4®ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¤ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5­ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø50ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø58ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5*ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¶ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5
+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5¶ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4±ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5rÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5gÿø3åÿøÿøÿøÿøÿøÿøÿø48ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ëÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ºÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿø5†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4µÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5`ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4€ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ƒÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¼ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ëÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4éÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4­ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4‡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4>ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ôÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6	ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5°ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4œÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ëÿøÿøÿøÿøÿøÿøÿø6¼ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6<ÿøÿøÿøÿøÿø5ëÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5(ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4°ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5-ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¯ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Nÿøÿøÿøÿøÿø5©ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6©ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5?ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4áÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6³ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4âÿø4¾ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4µÿøÿøÿøÿøÿøÿøÿøÿøÿø3þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4©ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5%ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4uÿøÿøÿøÿøÿøÿø5(ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4>ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Óÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5‡ÿøÿøÿøÿøÿøÿøÿøÿø55ÿøÿøÿøÿøÿøÿøÿø5sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4_ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4°ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5&ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Áÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¾ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5áÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ôÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¯ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4«ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿø4Êÿø4¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø58ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6&ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5¶ÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4‰ÿøÿø44uÿøÿøÿøÿøÿø4Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4›ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Êÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4|ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¸ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5xÿøÿøÿøÿøÿøÿøÿø5àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Zÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4”ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø55ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4œÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¥5Úÿøÿøÿøÿøÿøÿøÿø5,ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5^ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ñÿøÿøÿøÿøÿøÿøÿøÿøÿø5âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Óÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5 ÿøÿøÿøÿøÿøÿøÿø4øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4´ÿøÿøÿøÿøÿø5}ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5(ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4²ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ö4Dÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Üÿøÿøÿøÿøÿøÿøÿøÿø4Ì4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4iÿøÿøÿøÿøÿøÿø4úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4|ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¥ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5¬ÿøÿøÿøÿøÿø4ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5^ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5®ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4€ÿøÿøÿøÿøÿø4dÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5?ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø50ÿøÿø4÷ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4’4â5 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4}ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4×ÿøÿøÿø5ÿøÿøÿøÿø4Þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¯4.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5çÿøÿøÿøÿøÿøÿøÿøÿø3`ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¼ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4©ÿøÿøÿø4÷3£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4~ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ôÿøÿøÿøÿø5ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5O4äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4`ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø59ÿøÿøÿøÿø5éÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4?ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4òÿøÿøÿøÿøÿøÿøÿø43ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¢ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø67ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ªÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4\ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ºÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4
+ÿøÿø4uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ùÿøÿøÿøÿøÿøÿø5Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ö2ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4}ÿøÿøÿøÿø3Îÿøÿøÿøÿøÿøÿøÿøÿøÿø5*ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4zÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5–5™ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5÷ÿøÿøÿøÿø5kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3€ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4®ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5cÿø4Pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4›ÿøÿøÿøÿøÿøÿøÿøÿøÿø4xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5·ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6%ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø56ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Qÿøÿø5nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5×ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6(ÿøÿøÿø5^ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿø4þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3áÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4–ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5k4×ÿøÿøÿøÿø4}ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5”ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3~ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5rÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿø4Öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¤ÿøÿøÿøÿøÿøÿøÿøÿøÿø4tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5/ÿøÿøÿø4tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ûÿøÿøÿøÿøÿø4xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5$ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4§ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø44ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4-ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4]ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5cÿøÿøÿø4`ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ºÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ùÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5°ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5×ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4±ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5]ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø50ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5¸ÿø5Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4»ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3‰ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Å4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ôÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø41ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5-ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5µÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø44ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4œÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø38ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿø3Jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3|ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3÷ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4_ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¼ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4)ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4×ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4´ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4@ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5dÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Áÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2êÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4rÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø45ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6$ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ùÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3§ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4>ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5;ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4„ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4iÿøÿøÿøÿøÿøÿøÿøÿø4«ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2±ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4‘ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3÷ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4°ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3€ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5\ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ùÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4>ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¶ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3©ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2„ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Œÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2}ÿøÿøÿøÿøÿøÿøÿøÿø3ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4®ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3µÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3‚ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Âÿøÿøÿøÿøÿøÿø4fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2”ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4[ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3(ÿøÿø3–ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø34ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¯ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¢ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø41ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3\ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¸ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø29ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Dÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4^ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4~ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4\ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2=ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3‡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Zÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4+ÿøÿøÿøÿøÿøÿøÿøÿø4Rÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø33Õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3«ÿøÿøÿøÿø3îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3´ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø53ÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¦ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2×ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4éÿø4…ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ºÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¼ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3
+ÿøÿøÿøÿøÿøÿø3½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3@4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3dÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3—ÿøÿøÿøÿø3”ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3§ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø53ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¬ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3@ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø0¹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4‚ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø52ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Éÿøÿøÿø38ÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3êÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø34ÿøÿøÿøÿøÿø3Úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5¤ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¬ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3„ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø1êÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3´ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3­3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3«ÿøÿøÿøÿøÿøÿøÿøÿø3<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4§ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ºÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3^ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4	ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ñÿøÿøÿøÿøÿøÿøÿøÿø3Iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3îÿø3Vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø32ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¤ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3cÿøÿøÿøÿøÿøÿøÿø2Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3«ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Áÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Uÿøÿøÿøÿøÿøÿøÿø4mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3÷ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¥ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ëÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3 3õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3êÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø35ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3
+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3‚ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿø4ÿø4sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2N3¯ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø32ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ùÿøÿøÿøÿø3˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ºÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3»3 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø38ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3„ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3’ÿøÿøÿøÿøÿøÿø3Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Æ3Žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ê3ÿøÿøÿøÿøÿøÿøÿø2úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø47ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø1@ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3&ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3óÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿø3‡ÿøÿøÿøÿøÿøÿøÿøÿø3pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3?ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ëÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø32ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3"ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¶ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4–ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3”ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3*ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3&ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3«ÿøÿøÿøÿøÿø3Šÿøÿøÿøÿøÿøÿøÿøÿøÿø3“ÿøÿøÿøÿøÿøÿøÿøÿøÿø3)ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Rÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4„ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4½ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ìÿøÿøÿøÿøÿøÿøÿøÿøÿø2Cÿøÿøÿøÿøÿøÿø3‡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4'ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¢ÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3lÿøÿø3Mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2äÿøÿøÿøÿø3Òÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Šÿøÿø3ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3]ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3­ÿøÿøÿøÿøÿøÿøÿø3©ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Iÿøÿøÿø3mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3iÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5)ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¯ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ä3tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3
+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ìÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4›ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Äÿøÿøÿøÿøÿøÿøÿøÿøÿø3	ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¯ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3™ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3€ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø1íÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3jÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4<ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4\ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2õÿø4bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø37ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø1Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø33ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ùÿøÿøÿøÿøÿøÿøÿøÿøÿø5Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5fÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5‘ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø1oÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø31ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3·ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2,ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ïÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ºÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2%ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2âÿøÿøÿø31ÿøÿøÿøÿøÿø3Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ôÿøÿø3cÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ƒÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3›ÿøÿøÿøÿøÿø2ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3$ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3³ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3xÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4*ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3õÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Ó3Lÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Äÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3"ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3—ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2çÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3›ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3:ÿøÿøÿø3qÿøÿøÿøÿøÿøÿøÿø3uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø47ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2µÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3"ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3*ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3{ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¼ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4…ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Vÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2@ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¢ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2®ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Óÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø31ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4‘ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4?ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3V4Wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3'ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3”ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2n3Æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ªÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2€ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Yÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3#ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4 ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2ùÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Wÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3’ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø58ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2*ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3!ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ãÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Âÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¨ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3˜ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5‹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4-ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2èÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2mÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5}ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4“ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2^ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¬ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¤ÿøÿøÿøÿøÿøÿø3nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4_ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3|ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3úÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3²ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Sÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ßÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Hÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2D3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3hÿøÿøÿøÿøÿøÿø3šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5‰ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¾ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¹ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿø1öÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5&ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Óÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2·ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3@ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3kÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3+ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¢ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2üÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4-ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3:ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Žÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3óÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø1®ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3±ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6Nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Zÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3§ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø55ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Pÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3àÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø6.ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3†ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ðÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Eÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3«ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ûÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2¾ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5/ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4×ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3nÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3&ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3]ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2æÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ƒÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¾ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2åÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¡ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Aÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Ÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4%ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5Ñÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2øÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3µÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4éÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Ýÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø2•ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3éÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5gÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ˆÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ƒÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Tÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4÷ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5qÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4bÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø53ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4¦ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3îÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3¿ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Šÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø5£ÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø3Þÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø4Uÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿÿÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿøÿø
